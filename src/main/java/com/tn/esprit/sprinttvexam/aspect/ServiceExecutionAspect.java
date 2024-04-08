@@ -12,6 +12,6 @@ public class ServiceExecutionAspect {
     public void serviceGetMethods() {}
     @After("serviceGetMethods()")
     public void afterServiceMethodExecution() {
-        System.out.println("Exécution Réussie !");
+        System.out.println("==> Exécution Réussie !");
     }
 }
